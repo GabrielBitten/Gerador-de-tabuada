@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <title>Gerador de tabuada</title>
+</head>
+    <body>
+     <h2>Informe o número e confirme para gerar uma tabuada!</h2>
+     <form id="form">
+        <div class="form-control">
+            <label for="number">Tabuada do:</label>
+            <input type="number" name="number" id="number" placeholder="Digite aqui">
+        </div>
+        <div class="form-control">
+            <label for="multiplicator">Multiplicar até:</label>
+            <input type="number" name="multiplicator" id="multiplicator" placeholder="Digite aqui">
+        </div>
+        <input id="calcular" type="submit" value="Calcular">
+     </form>
+      <div class="tabela">
+        <h2 class="titulo-tabela">Tábuada do número: <span></span></h2>
+      <div id="operacoes">
+        <p>Tabuada</p>
+      </div>
+    </div>
+    </body>
+</html>
